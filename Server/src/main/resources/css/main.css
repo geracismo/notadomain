@@ -1,0 +1,9 @@
+.text-area .content {
+    -fx-background-color: #282829 ;
+}
+
+.text-area {
+    -fx-text-fill: white;
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: #7E21B8;
+}

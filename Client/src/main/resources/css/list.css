@@ -1,0 +1,32 @@
+.actionBtn {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 13;
+}
+
+.separator *.line {
+-fx-border-style: solid;
+-fx-border-width: 0.5px;
+-fx-border-color: #9600F4;
+
+}
+
+.actionBtn:hover{
+    -fx-background-color: #585858;
+    -fx-font-size: 13;
+}
+
+.styleBar{
+    -fx-color: white;
+}
+
+
+.list-view .list-cell {
+    -fx-text-fill: white;
+    -fx-background-color: #282829;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: #585858;
+}
+

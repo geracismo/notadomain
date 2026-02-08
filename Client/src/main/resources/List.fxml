@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="mainPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="555.0" prefWidth="740.0" style="-fx-background-color: #282829;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ListController">
+   <left>
+      <VBox maxHeight="1.7976931348623157E308" prefHeight="200.0" prefWidth="220.0" style="-fx-border-style: hidden hidden hidden hidden; -fx-border-color: #575757; -fx-border-width: 0.5;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox maxHeight="-Infinity" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="typeOfListLb" style="-fx-font-family: Ubuntu; -fx-font-weight: bold;" text="In arrivo:" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="7.0" />
+                     </HBox.margin>
+                  </Label>
+                  <ImageView fx:id="reloadImg" fitHeight="20.0" fitWidth="20.0" onMouseClicked="#onReloadList" pickOnBounds="true" preserveRatio="true">
+                     <HBox.margin>
+                        <Insets left="110.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@icon/purple/aggiorna.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </children>
+               <padding>
+                  <Insets bottom="2.0" left="10.0" right="2.0" top="8.0" />
+               </padding>
+            </HBox>
+            <ListView fx:id="listView" editable="true" maxHeight="1.7976931348623157E308" prefHeight="1400.0" style="-fx-background-color: #282829; -fx-border-color: #575757; -fx-border-width: 0.7; -fx-border-style: hidden solid hidden hidden;" />
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox fx:id="mailBox" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #282829;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox fx:id="actionBar" alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="36.0" prefWidth="500.0" style="-fx-border-style: hidden hidden solid hidden; -fx-background-color: #282829; -fx-border-color: #575757; -fx-border-width: 0.7;">
+               <children>
+                  <ImageView fx:id="rispondiAllBtn" fitHeight="150.0" fitWidth="20.0" onMouseClicked="#answerAllMail" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icon/purple/rispondiATutti.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fx:id="rispondiBtn" fitHeight="150.0" fitWidth="20.0" onMouseClicked="#answerMail" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icon/purple/rispondi.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fx:id="inoltraBtn" fitHeight="150.0" fitWidth="20.0" onMouseClicked="#forwardMail" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icon/purple/inoltra.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fx:id="deleteEmailBtn" fitHeight="150.0" fitWidth="20.0" onMouseClicked="#deleteEmail" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icon/purple/trash.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </children></HBox>
+            <BorderPane prefHeight="196.0" prefWidth="500.0" style="-fx-border-style: hidden hidden solid hidden; -fx-background-color: #282829; -fx-border-color: #575757; -fx-border-width: 0.5;">
+               <left>
+                  <VBox alignment="CENTER" maxHeight="-Infinity" prefHeight="48.0" prefWidth="48.0" style="-fx-background-color: linear-gradient(to bottom, #a8a8a8, #444444); -fx-background-radius: 50%;" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="10.0" />
+                     </BorderPane.margin>
+                     <children>
+                        <Label fx:id="accountLb" style="-fx-font-family: Ubuntu; -fx-font-weight: bold;" text="AB" textFill="WHITE" />
+                     </children>
+                  </VBox>
+               </left>
+               <center>
+                  <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #282829;" BorderPane.alignment="CENTER">
+                     <padding>
+                        <Insets left="14.0" top="6.0" />
+                     </padding>
+                     <children>
+                        <Label fx:id="mittenteLb" style="-fx-font-family: Ubuntu; -fx-font-weight: bold;" textFill="WHITE" />
+                        <Label fx:id="oggettoLb" style="-fx-font-family: Ubuntu; -fx-font-weight: bold;" text="Object" textFill="WHITE">
+                           <VBox.margin>
+                              <Insets top="7.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Label style="-fx-font-family: Ubuntu;" text="A:" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label fx:id="destLb" style="-fx-font-family: Ubuntu;" textFill="#fffdfd">
+                                 <HBox.margin>
+                                    <Insets left="3.0" top="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                           </children>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Label style="-fx-font-family: Ubuntu;" text="Cc:" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets top="5.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label fx:id="copyLb" style="-fx-font-family: Ubuntu;" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets left="3.0" top="5.0" />
+                                 </HBox.margin>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </center>
+               <right>
+                  <HBox alignment="TOP_RIGHT" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="125.0" style="-fx-background-color: #282829;" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label fx:id="dataLb" style="-fx-font-family: ubuntu;" text="Orario" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets right="10.0" top="7.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </right></BorderPane>
+            <ScrollPane fitToHeight="true" fitToWidth="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="486.0" prefWidth="500.0" style="-fx-background-color: #282829; -fx-border-color: #575757; -fx-border-width: 0.7; -fx-border-style: solid hidden hidden hidden;">
+               <content>
+                  <Label fx:id="bodyLb" alignment="TOP_LEFT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="390.0" prefWidth="550.0" style="-fx-font-family: Ubuntu; -fx-background-color: #282829;" text="Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato. Fu reso popolare, negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum.Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato. Fu reso popolare, negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum." textFill="WHITE" wrapText="true" />
+               </content>
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="15.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </center>
+   <stylesheets>
+      <URL value="@/css/fonts.css" />
+      <URL value="@/css/list.css" />
+   </stylesheets>
+</BorderPane>

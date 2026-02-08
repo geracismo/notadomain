@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #434345;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <left>
+      <VBox fx:id="slideMenu" focusTraversable="true" prefHeight="571.0" prefWidth="162.0" style="-fx-padding: 10; -fx-background-color: #434345;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox fx:id="HBprofileImage" alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <VBox alignment="CENTER" maxHeight="-Infinity" prefHeight="48.0" prefWidth="48.0" style="-fx-background-color: linear-gradient(to bottom, #9600F4, #444444); -fx-background-radius: 50%;">
+                     <children>
+                        <Label fx:id="sideMenuAccountLB" style="-fx-font-family: Ubuntu; -fx-font-weight: bold;" text="AB" textFill="WHITE" />
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <Label fx:id="userMail" alignment="CENTER" maxWidth="1.7976931348623157E308" minWidth="-Infinity" style="-fx-font-family: Ubuntu; -fx-font-waigth: bold;" text="ettore.calvi@gmail.com" textFill="WHITE">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Label>
+            <Separator minWidth="-Infinity" prefWidth="140.0" stylesheets="@css/list.css">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Separator>
+            <HBox fx:id="HBscriviBtn" maxWidth="1.7976931348623157E308" onMouseClicked="#scriviMail" prefHeight="23.0" prefWidth="90.0" style="-fx-border-radius: 4; -fx-border-color: null;" styleClass="leftHbox">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icon/purple/scrivi.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="10.0" top="2.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Button id="inArrivoBtn" fx:id="scriviBtn" mnemonicParsing="false" onAction="#scriviMail" styleClass="leftButton" text="Scrivi" textFill="WHITE">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <Separator minWidth="-Infinity" prefWidth="140.0" stylesheets="@css/list.css">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Separator>
+            <Label style="-fx-font-family: Ubuntu; -fx-font-weight: bold;" text="Caselle" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <HBox fx:id="HBinArrivoBtn" maxWidth="1.7976931348623157E308" onMouseClicked="#inArrivoMailList" prefHeight="23.0" prefWidth="90.0" style="-fx-border-radius: 4; -fx-border-color: null;" styleClass="leftHbox">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@/icon/purple/inArrivo.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="10.0" top="2.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Button id="inArrivoBtn" fx:id="inArrivoBtn" mnemonicParsing="false" onAction="#inArrivoMailList" styleClass="leftButton" text="In arrivo" textFill="WHITE">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <HBox fx:id="notifyHB" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="24.0" style="-fx-background-radius: 50%; -fx-background-color: #9600F4;" visible="false">
+                     <children>
+                        <Label fx:id="notifyLb" contentDisplay="CENTER" text="0" textFill="WHITE">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets bottom="3.7" left="8.0" top="3.7" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <HBox.margin>
+                        <Insets left="35.0" />
+                     </HBox.margin></HBox>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+            <HBox fx:id="inviatiHb" maxWidth="1.7976931348623157E308" onMouseClicked="#inviatiMailList" prefHeight="23.0" prefWidth="90.0" style="-fx-border-radius: 4; -fx-border-color: null;" styleClass="leftHbox">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icon/purple/inviata-invio.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="10.0" top="2.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Button fx:id="inviatiBtn" mnemonicParsing="false" onAction="#inviatiMailList" styleClass="leftButton" text="Inviati" textFill="WHITE">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox fx:id="HBbozzeBtn" maxWidth="1.7976931348623157E308" onMouseClicked="#bozzeMailList" prefHeight="23.0" prefWidth="90.0" style="-fx-border-radius: 4; -fx-border-color: null;" styleClass="leftHbox">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icon/purple/bozza.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="10.0" top="2.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Button fx:id="bozzeBtn" mnemonicParsing="false" onMouseClicked="#bozzeMailList" styleClass="leftButton" text="Bozze" textFill="WHITE">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <Separator minWidth="-Infinity" prefWidth="140.0" stylesheets="@css/list.css">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Separator>
+            <HBox fx:id="HBLogout" maxWidth="1.7976931348623157E308" onMouseClicked="#onLogout" prefHeight="23.0" prefWidth="90.0" style="-fx-border-radius: 4; -fx-border-color: null;" styleClass="leftHbox">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icon/purple/logout.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="10.0" top="2.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Button fx:id="logoutBtn" mnemonicParsing="false" onMouseClicked="#onLogout" styleClass="leftButton" text="Logout" textFill="WHITE">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <Separator minWidth="-Infinity" prefWidth="140.0" stylesheets="@css/list.css">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Separator>
+            <HBox fx:id="HBlogo" alignment="BOTTOM_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="75.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/logo1.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets top="100.0" />
+               </VBox.margin>
+            </HBox>
+            <Label alignment="CENTER" style="-fx-font-family: Ubuntu Italic;" text="Not A Domain" textFill="#c5c5c5">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Italic" size="13.0" />
+               </font>
+            </Label>
+            <Label style="-fx-font-family: Ubuntu;" text="Lorenzo Bergadano" textFill="#c5c5c5">
+               <font>
+                  <Font name="System Bold" size="7.0" />
+               </font>
+            </Label>
+            <Label style="-fx-font-family: Ubuntu;" text="Simone Geraci" textFill="#c5c5c5">
+               <font>
+                  <Font name="System Bold" size="7.0" />
+               </font>
+            </Label>
+            <Label style="-fx-font-family: Ubuntu;" text="Ettore Calvi" textFill="#c5c5c5">
+               <font>
+                  <Font name="System Bold" size="7.0" />
+               </font>
+            </Label>
+         </children>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <BorderPane.margin>
+            <Insets top="10.0" />
+         </BorderPane.margin>
+      </VBox>
+   </left>
+   <bottom>
+      <Label fx:id="lastUpdateLb" style="-fx-text-fill: white;" text="Ultimo aggiornamento:" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+   </bottom>
+   <stylesheets>
+      <URL value="@/css/fonts.css" />
+      <URL value="@/css/main.css" />
+   </stylesheets>
+   <center>
+      <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="740.0" style="-fx-background-color: #282829;" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

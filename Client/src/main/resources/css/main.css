@@ -1,0 +1,9 @@
+.leftButton{
+    -fx-background-color: transparent;
+}
+
+
+.leftHbox:hover{
+    -fx-background-color: #585858;
+}
+

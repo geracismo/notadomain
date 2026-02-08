@@ -1,0 +1,601 @@
+
+[11/12/2020 01:05:58] INFO: Starting server on port 1999...
+[11/12/2020 01:05:58] INFO: Start server
+[11/12/2020 01:06:01] INFO: A new client is connected (localhost)
+[11/12/2020 01:06:01] INFO: Recived request GET_INBOX from localhost
+[11/12/2020 01:06:01] INFO: End of request of socket localhost
+[11/12/2020 01:06:01] INFO: A new client is connected (localhost)
+[11/12/2020 01:06:01] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:06:01] INFO: End of request of socket localhost
+[11/12/2020 01:06:03] INFO: A new client is connected (localhost)
+[11/12/2020 01:06:03] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:06:03] INFO: End of request of socket localhost
+[11/12/2020 01:06:11] INFO: A new client is connected (localhost)
+[11/12/2020 01:06:11] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:06:11] INFO: End of request of socket localhost
+[11/12/2020 01:06:14] INFO: A new client is connected (localhost)
+[11/12/2020 01:06:14] INFO: Recived request OPEN_EMAIL from localhost
+[11/12/2020 01:06:14] INFO: End of request of socket localhost
+[11/12/2020 01:06:21] INFO: A new client is connected (localhost)
+[11/12/2020 01:06:21] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:06:21] INFO: End of request of socket localhost
+[11/12/2020 01:06:31] INFO: A new client is connected (localhost)
+[11/12/2020 01:06:31] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:06:31] INFO: End of request of socket localhost
+[11/12/2020 01:06:35] INFO: A new client is connected (localhost)
+[11/12/2020 01:06:35] INFO: Recived request GET_INBOX from localhost
+[11/12/2020 01:06:35] INFO: End of request of socket localhost
+[11/12/2020 01:06:36] INFO: A new client is connected (localhost)
+[11/12/2020 01:06:36] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:06:36] INFO: End of request of socket localhost
+[11/12/2020 01:06:41] INFO: A new client is connected (localhost)
+[11/12/2020 01:06:41] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:06:41] INFO: End of request of socket localhost
+[11/12/2020 01:06:46] INFO: A new client is connected (localhost)
+[11/12/2020 01:06:46] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:06:46] INFO: End of request of socket localhost
+[11/12/2020 01:06:51] INFO: A new client is connected (localhost)
+[11/12/2020 01:06:51] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:06:51] INFO: End of request of socket localhost
+[11/12/2020 01:06:55] INFO: A new client is connected (localhost)
+[11/12/2020 01:06:56] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:06:56] INFO: End of request of socket localhost
+[11/12/2020 01:07:01] INFO: A new client is connected (localhost)
+[11/12/2020 01:07:01] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:07:01] INFO: End of request of socket localhost
+[11/12/2020 01:07:06] INFO: A new client is connected (localhost)
+[11/12/2020 01:07:06] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:07:06] INFO: End of request of socket localhost
+[11/12/2020 01:07:11] INFO: A new client is connected (localhost)
+[11/12/2020 01:07:11] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:07:11] INFO: End of request of socket localhost
+[11/12/2020 01:07:21] INFO: A new client is connected (localhost)
+[11/12/2020 01:07:21] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:07:21] INFO: End of request of socket localhost
+[11/12/2020 01:07:25] INFO: A new client is connected (localhost)
+[11/12/2020 01:07:25] INFO: Recived request GET_INBOX from localhost
+[11/12/2020 01:07:25] INFO: End of request of socket localhost
+[11/12/2020 01:07:26] INFO: A new client is connected (localhost)
+[11/12/2020 01:07:26] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:07:26] INFO: End of request of socket localhost
+[11/12/2020 01:07:31] INFO: A new client is connected (localhost)
+[11/12/2020 01:07:31] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:07:31] INFO: End of request of socket localhost
+[11/12/2020 01:07:36] INFO: A new client is connected (localhost)
+[11/12/2020 01:07:36] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:07:36] INFO: End of request of socket localhost
+[11/12/2020 01:07:41] INFO: A new client is connected (localhost)
+[11/12/2020 01:07:41] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:07:41] INFO: End of request of socket localhost
+[11/12/2020 01:07:46] INFO: A new client is connected (localhost)
+[11/12/2020 01:07:46] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:07:46] INFO: End of request of socket localhost
+[11/12/2020 01:07:51] INFO: A new client is connected (localhost)
+[11/12/2020 01:07:51] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:07:51] INFO: End of request of socket localhost
+[11/12/2020 01:07:54] INFO: A new client is connected (localhost)
+[11/12/2020 01:07:54] INFO: Recived request SEND_EMAIL from localhost
+[11/12/2020 01:07:54] INFO: End of request of socket localhost
+[11/12/2020 01:07:56] INFO: A new client is connected (localhost)
+[11/12/2020 01:07:56] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:07:56] INFO: End of request of socket localhost
+[11/12/2020 01:07:59] INFO: A new client is connected (localhost)
+[11/12/2020 01:07:59] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:07:59] INFO: End of request of socket localhost
+[11/12/2020 01:08:01] INFO: A new client is connected (localhost)
+[11/12/2020 01:08:01] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:08:01] INFO: End of request of socket localhost
+[11/12/2020 01:08:04] INFO: A new client is connected (localhost)
+[11/12/2020 01:08:04] INFO: Recived request OPEN_EMAIL from localhost
+[11/12/2020 01:08:04] INFO: End of request of socket localhost
+[11/12/2020 01:08:06] INFO: A new client is connected (localhost)
+[11/12/2020 01:08:06] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:08:06] INFO: End of request of socket localhost
+[11/12/2020 01:08:11] INFO: A new client is connected (localhost)
+[11/12/2020 01:08:11] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:08:11] INFO: End of request of socket localhost
+[11/12/2020 01:08:21] INFO: A new client is connected (localhost)
+[11/12/2020 01:08:21] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:08:21] INFO: End of request of socket localhost
+[11/12/2020 01:08:28] INFO: A new client is connected (localhost)
+[11/12/2020 01:08:28] INFO: Recived request GET_INBOX from localhost
+[11/12/2020 01:08:28] INFO: End of request of socket localhost
+[11/12/2020 01:08:28] INFO: A new client is connected (localhost)
+[11/12/2020 01:08:28] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:08:28] INFO: End of request of socket localhost
+[11/12/2020 01:08:31] INFO: A new client is connected (localhost)
+[11/12/2020 01:08:31] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:08:31] INFO: End of request of socket localhost
+[11/12/2020 01:08:34] INFO: A new client is connected (localhost)
+[11/12/2020 01:08:34] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:08:34] INFO: End of request of socket localhost
+[11/12/2020 01:08:35] INFO: A new client is connected (localhost)
+[11/12/2020 01:08:35] INFO: Recived request OPEN_EMAIL from localhost
+[11/12/2020 01:08:35] INFO: End of request of socket localhost
+[11/12/2020 01:08:38] INFO: A new client is connected (localhost)
+[11/12/2020 01:08:38] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:08:38] INFO: End of request of socket localhost
+[11/12/2020 01:08:41] INFO: A new client is connected (localhost)
+[11/12/2020 01:08:41] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:08:41] INFO: End of request of socket localhost
+[11/12/2020 01:08:48] INFO: A new client is connected (localhost)
+[11/12/2020 01:08:48] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:08:48] INFO: End of request of socket localhost
+[11/12/2020 01:08:51] INFO: A new client is connected (localhost)
+[11/12/2020 01:08:51] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:08:51] INFO: End of request of socket localhost
+[11/12/2020 01:08:58] INFO: A new client is connected (localhost)
+[11/12/2020 01:08:58] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:08:58] INFO: End of request of socket localhost
+[11/12/2020 01:09:01] INFO: A new client is connected (localhost)
+[11/12/2020 01:09:01] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:09:01] INFO: End of request of socket localhost
+[11/12/2020 01:09:08] INFO: A new client is connected (localhost)
+[11/12/2020 01:09:08] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:09:08] INFO: End of request of socket localhost
+[11/12/2020 01:09:11] INFO: A new client is connected (localhost)
+[11/12/2020 01:09:11] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:09:11] INFO: End of request of socket localhost
+[11/12/2020 01:09:18] INFO: A new client is connected (localhost)
+[11/12/2020 01:09:18] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:09:18] INFO: End of request of socket localhost
+[11/12/2020 01:09:21] INFO: A new client is connected (localhost)
+[11/12/2020 01:09:21] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:09:21] INFO: End of request of socket localhost
+[11/12/2020 01:09:28] INFO: A new client is connected (localhost)
+[11/12/2020 01:09:28] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:09:28] INFO: End of request of socket localhost
+[11/12/2020 01:09:31] INFO: A new client is connected (localhost)
+[11/12/2020 01:09:31] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:09:31] INFO: End of request of socket localhost
+[11/12/2020 01:09:38] INFO: A new client is connected (localhost)
+[11/12/2020 01:09:38] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:09:38] INFO: End of request of socket localhost
+[11/12/2020 01:09:38] INFO: A new client is connected (localhost)
+[11/12/2020 01:09:38] INFO: Recived request GET_INBOX from localhost
+[11/12/2020 01:09:38] INFO: End of request of socket localhost
+[11/12/2020 01:09:39] INFO: A new client is connected (localhost)
+[11/12/2020 01:09:39] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:09:39] INFO: End of request of socket localhost
+[11/12/2020 01:09:41] INFO: A new client is connected (localhost)
+[11/12/2020 01:09:41] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:09:41] INFO: End of request of socket localhost
+[11/12/2020 01:09:44] INFO: A new client is connected (localhost)
+[11/12/2020 01:09:44] INFO: Recived request SEND_EMAIL from localhost
+[11/12/2020 01:09:44] INFO: End of request of socket localhost
+[11/12/2020 01:09:48] INFO: A new client is connected (localhost)
+[11/12/2020 01:09:48] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:09:48] INFO: End of request of socket localhost
+[11/12/2020 01:09:49] INFO: A new client is connected (localhost)
+[11/12/2020 01:09:49] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:09:49] INFO: End of request of socket localhost
+[11/12/2020 01:09:51] INFO: A new client is connected (localhost)
+[11/12/2020 01:09:51] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:09:51] INFO: End of request of socket localhost
+[11/12/2020 01:09:58] INFO: A new client is connected (localhost)
+[11/12/2020 01:09:58] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:09:58] INFO: End of request of socket localhost
+[11/12/2020 01:09:59] INFO: A new client is connected (localhost)
+[11/12/2020 01:09:59] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:09:59] INFO: End of request of socket localhost
+[11/12/2020 01:10:01] INFO: A new client is connected (localhost)
+[11/12/2020 01:10:01] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:10:01] INFO: End of request of socket localhost
+[11/12/2020 01:10:08] INFO: A new client is connected (localhost)
+[11/12/2020 01:10:08] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:10:08] INFO: End of request of socket localhost
+[11/12/2020 01:10:09] INFO: A new client is connected (localhost)
+[11/12/2020 01:10:09] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:10:09] INFO: End of request of socket localhost
+[11/12/2020 01:10:11] INFO: A new client is connected (localhost)
+[11/12/2020 01:10:11] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:10:11] INFO: End of request of socket localhost
+[11/12/2020 01:10:18] INFO: A new client is connected (localhost)
+[11/12/2020 01:10:18] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:10:18] INFO: End of request of socket localhost
+[11/12/2020 01:10:19] INFO: A new client is connected (localhost)
+[11/12/2020 01:10:19] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:10:19] INFO: End of request of socket localhost
+[11/12/2020 01:10:21] INFO: A new client is connected (localhost)
+[11/12/2020 01:10:21] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:10:21] INFO: End of request of socket localhost
+[11/12/2020 01:10:28] INFO: A new client is connected (localhost)
+[11/12/2020 01:10:28] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:10:28] INFO: End of request of socket localhost
+[11/12/2020 01:10:29] INFO: A new client is connected (localhost)
+[11/12/2020 01:10:29] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:10:29] INFO: End of request of socket localhost
+[11/12/2020 01:10:31] INFO: A new client is connected (localhost)
+[11/12/2020 01:10:31] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:10:31] INFO: End of request of socket localhost
+[11/12/2020 01:10:38] INFO: A new client is connected (localhost)
+[11/12/2020 01:10:38] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:10:38] INFO: End of request of socket localhost
+[11/12/2020 01:10:39] INFO: A new client is connected (localhost)
+[11/12/2020 01:10:39] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:10:39] INFO: End of request of socket localhost
+[11/12/2020 01:10:41] INFO: A new client is connected (localhost)
+[11/12/2020 01:10:41] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:10:41] INFO: End of request of socket localhost
+[11/12/2020 01:10:48] INFO: A new client is connected (localhost)
+[11/12/2020 01:10:48] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:10:48] INFO: End of request of socket localhost
+[11/12/2020 01:10:49] INFO: A new client is connected (localhost)
+[11/12/2020 01:10:49] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:10:49] INFO: End of request of socket localhost
+[11/12/2020 01:10:51] INFO: A new client is connected (localhost)
+[11/12/2020 01:10:51] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:10:51] INFO: End of request of socket localhost
+[11/12/2020 01:10:58] INFO: A new client is connected (localhost)
+[11/12/2020 01:10:58] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:10:58] INFO: End of request of socket localhost
+[11/12/2020 01:10:59] INFO: A new client is connected (localhost)
+[11/12/2020 01:10:59] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:10:59] INFO: End of request of socket localhost
+[11/12/2020 01:11:01] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:01] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:01] INFO: End of request of socket localhost
+[11/12/2020 01:11:02] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:02] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:02] INFO: End of request of socket localhost
+[11/12/2020 01:11:07] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:07] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:07] INFO: End of request of socket localhost
+[11/12/2020 01:11:08] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:08] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:08] INFO: End of request of socket localhost
+[11/12/2020 01:11:09] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:09] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:09] INFO: End of request of socket localhost
+[11/12/2020 01:11:09] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:09] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:09] INFO: End of request of socket localhost
+[11/12/2020 01:11:11] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:11] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:11] INFO: End of request of socket localhost
+[11/12/2020 01:11:18] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:18] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:18] INFO: End of request of socket localhost
+[11/12/2020 01:11:19] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:19] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:19] INFO: End of request of socket localhost
+[11/12/2020 01:11:21] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:21] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:21] INFO: End of request of socket localhost
+[11/12/2020 01:11:28] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:28] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:28] INFO: End of request of socket localhost
+[11/12/2020 01:11:29] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:29] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:29] INFO: End of request of socket localhost
+[11/12/2020 01:11:31] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:31] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:31] INFO: End of request of socket localhost
+[11/12/2020 01:11:38] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:38] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:38] INFO: End of request of socket localhost
+[11/12/2020 01:11:39] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:39] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:39] INFO: End of request of socket localhost
+[11/12/2020 01:11:41] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:41] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:41] INFO: End of request of socket localhost
+[11/12/2020 01:11:48] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:48] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:48] INFO: End of request of socket localhost
+[11/12/2020 01:11:49] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:49] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:49] INFO: End of request of socket localhost
+[11/12/2020 01:11:51] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:51] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:51] INFO: End of request of socket localhost
+[11/12/2020 01:11:58] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:58] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:58] INFO: End of request of socket localhost
+[11/12/2020 01:11:59] INFO: A new client is connected (localhost)
+[11/12/2020 01:11:59] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:11:59] INFO: End of request of socket localhost
+[11/12/2020 01:12:01] INFO: A new client is connected (localhost)
+[11/12/2020 01:12:01] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 01:12:01] INFO: End of request of socket localhost
+[11/12/2020 01:12:02] INFO: Start stopping...
+[11/12/2020 01:12:02] INFO: A new client is connected (localhost)
+[11/12/2020 01:12:02] INFO: Server stopped
+
+[11/12/2020 18:48:49] INFO: Starting server on port 1999...
+[11/12/2020 18:48:49] INFO: Start server
+[11/12/2020 18:49:16] INFO: A new client is connected (localhost)
+[11/12/2020 18:49:16] INFO: Recived request GET_INBOX from localhost
+[11/12/2020 18:49:16] INFO: End of request of socket localhost
+[11/12/2020 18:49:16] INFO: A new client is connected (localhost)
+[11/12/2020 18:49:16] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:49:16] INFO: End of request of socket localhost
+[11/12/2020 18:49:26] INFO: A new client is connected (localhost)
+[11/12/2020 18:49:26] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:49:26] INFO: End of request of socket localhost
+[11/12/2020 18:49:36] INFO: A new client is connected (localhost)
+[11/12/2020 18:49:36] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:49:36] INFO: End of request of socket localhost
+[11/12/2020 18:49:46] INFO: A new client is connected (localhost)
+[11/12/2020 18:49:46] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:49:46] INFO: End of request of socket localhost
+[11/12/2020 18:49:56] INFO: A new client is connected (localhost)
+[11/12/2020 18:49:56] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:49:56] INFO: End of request of socket localhost
+[11/12/2020 18:50:06] INFO: A new client is connected (localhost)
+[11/12/2020 18:50:06] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:50:06] INFO: End of request of socket localhost
+[11/12/2020 18:50:16] INFO: A new client is connected (localhost)
+[11/12/2020 18:50:16] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:50:16] INFO: End of request of socket localhost
+[11/12/2020 18:50:26] INFO: A new client is connected (localhost)
+[11/12/2020 18:50:26] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:50:26] INFO: End of request of socket localhost
+[11/12/2020 18:50:36] INFO: A new client is connected (localhost)
+[11/12/2020 18:50:36] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:50:36] INFO: End of request of socket localhost
+[11/12/2020 18:50:46] INFO: A new client is connected (localhost)
+[11/12/2020 18:50:46] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:50:46] INFO: End of request of socket localhost
+[11/12/2020 18:50:56] INFO: A new client is connected (localhost)
+[11/12/2020 18:50:56] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:50:56] INFO: End of request of socket localhost
+[11/12/2020 18:51:06] INFO: A new client is connected (localhost)
+[11/12/2020 18:51:06] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:51:06] INFO: End of request of socket localhost
+[11/12/2020 18:51:16] INFO: A new client is connected (localhost)
+[11/12/2020 18:51:16] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:51:16] INFO: End of request of socket localhost
+[11/12/2020 18:51:26] INFO: A new client is connected (localhost)
+[11/12/2020 18:51:26] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:51:26] INFO: End of request of socket localhost
+[11/12/2020 18:51:36] INFO: A new client is connected (localhost)
+[11/12/2020 18:51:36] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:51:36] INFO: End of request of socket localhost
+[11/12/2020 18:51:46] INFO: A new client is connected (localhost)
+[11/12/2020 18:51:46] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:51:46] INFO: End of request of socket localhost
+[11/12/2020 18:51:56] INFO: A new client is connected (localhost)
+[11/12/2020 18:51:56] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:51:56] INFO: End of request of socket localhost
+[11/12/2020 18:52:06] INFO: A new client is connected (localhost)
+[11/12/2020 18:52:06] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:52:06] INFO: End of request of socket localhost
+[11/12/2020 18:52:16] INFO: A new client is connected (localhost)
+[11/12/2020 18:52:16] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:52:16] INFO: End of request of socket localhost
+[11/12/2020 18:52:22] INFO: A new client is connected (localhost)
+[11/12/2020 18:52:22] INFO: Recived request GET_INBOX from localhost
+[11/12/2020 18:52:22] INFO: End of request of socket localhost
+[11/12/2020 18:52:22] INFO: A new client is connected (localhost)
+[11/12/2020 18:52:22] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:52:22] INFO: End of request of socket localhost
+[11/12/2020 18:52:32] INFO: A new client is connected (localhost)
+[11/12/2020 18:52:32] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:52:32] INFO: End of request of socket localhost
+[11/12/2020 18:52:42] INFO: A new client is connected (localhost)
+[11/12/2020 18:52:42] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:52:42] INFO: End of request of socket localhost
+[11/12/2020 18:52:52] INFO: A new client is connected (localhost)
+[11/12/2020 18:52:52] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:52:52] INFO: End of request of socket localhost
+[11/12/2020 18:53:02] INFO: A new client is connected (localhost)
+[11/12/2020 18:53:02] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:53:02] INFO: End of request of socket localhost
+[11/12/2020 18:53:12] INFO: A new client is connected (localhost)
+[11/12/2020 18:53:12] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:53:12] INFO: End of request of socket localhost
+[11/12/2020 18:53:22] INFO: A new client is connected (localhost)
+[11/12/2020 18:53:22] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:53:22] INFO: End of request of socket localhost
+[11/12/2020 18:53:32] INFO: A new client is connected (localhost)
+[11/12/2020 18:53:32] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:53:32] INFO: End of request of socket localhost
+[11/12/2020 18:53:42] INFO: A new client is connected (localhost)
+[11/12/2020 18:53:42] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:53:42] INFO: End of request of socket localhost
+[11/12/2020 18:53:52] INFO: A new client is connected (localhost)
+[11/12/2020 18:53:52] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:53:52] INFO: End of request of socket localhost
+[11/12/2020 18:54:02] INFO: A new client is connected (localhost)
+[11/12/2020 18:54:02] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:54:02] INFO: End of request of socket localhost
+[11/12/2020 18:54:12] INFO: A new client is connected (localhost)
+[11/12/2020 18:54:12] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:54:12] INFO: End of request of socket localhost
+[11/12/2020 18:54:22] INFO: A new client is connected (localhost)
+[11/12/2020 18:54:22] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:54:22] INFO: End of request of socket localhost
+[11/12/2020 18:54:32] INFO: A new client is connected (localhost)
+[11/12/2020 18:54:32] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:54:32] INFO: End of request of socket localhost
+[11/12/2020 18:54:42] INFO: A new client is connected (localhost)
+[11/12/2020 18:54:42] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:54:42] INFO: End of request of socket localhost
+[11/12/2020 18:54:52] INFO: A new client is connected (localhost)
+[11/12/2020 18:54:52] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:54:52] INFO: End of request of socket localhost
+[11/12/2020 18:55:02] INFO: A new client is connected (localhost)
+[11/12/2020 18:55:02] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:55:02] INFO: End of request of socket localhost
+[11/12/2020 18:55:12] INFO: A new client is connected (localhost)
+[11/12/2020 18:55:12] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:55:12] INFO: End of request of socket localhost
+[11/12/2020 18:55:22] INFO: A new client is connected (localhost)
+[11/12/2020 18:55:22] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:55:22] INFO: End of request of socket localhost
+[11/12/2020 18:55:32] INFO: A new client is connected (localhost)
+[11/12/2020 18:55:32] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:55:32] INFO: End of request of socket localhost
+[11/12/2020 18:55:42] INFO: A new client is connected (localhost)
+[11/12/2020 18:55:42] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:55:42] INFO: End of request of socket localhost
+[11/12/2020 18:55:52] INFO: A new client is connected (localhost)
+[11/12/2020 18:55:52] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:55:52] INFO: End of request of socket localhost
+[11/12/2020 18:56:02] INFO: A new client is connected (localhost)
+[11/12/2020 18:56:02] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:56:02] INFO: End of request of socket localhost
+[11/12/2020 18:56:12] INFO: A new client is connected (localhost)
+[11/12/2020 18:56:12] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:56:12] INFO: End of request of socket localhost
+[11/12/2020 18:56:22] INFO: A new client is connected (localhost)
+[11/12/2020 18:56:22] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:56:22] INFO: End of request of socket localhost
+[11/12/2020 18:56:32] INFO: A new client is connected (localhost)
+[11/12/2020 18:56:32] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:56:32] INFO: End of request of socket localhost
+[11/12/2020 18:56:42] INFO: A new client is connected (localhost)
+[11/12/2020 18:56:42] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:56:42] INFO: End of request of socket localhost
+[11/12/2020 18:56:52] INFO: A new client is connected (localhost)
+[11/12/2020 18:56:52] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:56:52] INFO: End of request of socket localhost
+[11/12/2020 18:57:02] INFO: A new client is connected (localhost)
+[11/12/2020 18:57:02] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:57:02] INFO: End of request of socket localhost
+[11/12/2020 18:57:12] INFO: A new client is connected (localhost)
+[11/12/2020 18:57:12] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:57:12] INFO: End of request of socket localhost
+[11/12/2020 18:57:22] INFO: A new client is connected (localhost)
+[11/12/2020 18:57:22] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:57:22] INFO: End of request of socket localhost
+[11/12/2020 18:57:32] INFO: A new client is connected (localhost)
+[11/12/2020 18:57:32] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:57:32] INFO: End of request of socket localhost
+[11/12/2020 18:57:42] INFO: A new client is connected (localhost)
+[11/12/2020 18:57:42] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:57:42] INFO: End of request of socket localhost
+[11/12/2020 18:57:52] INFO: A new client is connected (localhost)
+[11/12/2020 18:57:52] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:57:52] INFO: End of request of socket localhost
+[11/12/2020 18:58:02] INFO: A new client is connected (localhost)
+[11/12/2020 18:58:02] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:58:02] INFO: End of request of socket localhost
+[11/12/2020 18:58:12] INFO: A new client is connected (localhost)
+[11/12/2020 18:58:12] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:58:12] INFO: End of request of socket localhost
+[11/12/2020 18:58:22] INFO: A new client is connected (localhost)
+[11/12/2020 18:58:22] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:58:22] INFO: End of request of socket localhost
+[11/12/2020 18:58:32] INFO: A new client is connected (localhost)
+[11/12/2020 18:58:32] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:58:32] INFO: End of request of socket localhost
+[11/12/2020 18:58:42] INFO: A new client is connected (localhost)
+[11/12/2020 18:58:42] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:58:42] INFO: End of request of socket localhost
+[11/12/2020 18:58:52] INFO: A new client is connected (localhost)
+[11/12/2020 18:58:52] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:58:52] INFO: End of request of socket localhost
+[11/12/2020 18:59:02] INFO: A new client is connected (localhost)
+[11/12/2020 18:59:02] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:59:02] INFO: End of request of socket localhost
+[11/12/2020 18:59:12] INFO: A new client is connected (localhost)
+[11/12/2020 18:59:12] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:59:12] INFO: End of request of socket localhost
+[11/12/2020 18:59:22] INFO: A new client is connected (localhost)
+[11/12/2020 18:59:22] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:59:22] INFO: End of request of socket localhost
+[11/12/2020 18:59:32] INFO: A new client is connected (localhost)
+[11/12/2020 18:59:32] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:59:32] INFO: End of request of socket localhost
+[11/12/2020 18:59:42] INFO: A new client is connected (localhost)
+[11/12/2020 18:59:42] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:59:42] INFO: End of request of socket localhost
+[11/12/2020 18:59:52] INFO: A new client is connected (localhost)
+[11/12/2020 18:59:52] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 18:59:52] INFO: End of request of socket localhost
+[11/12/2020 19:00:02] INFO: A new client is connected (localhost)
+[11/12/2020 19:00:02] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:00:02] INFO: End of request of socket localhost
+[11/12/2020 19:00:12] INFO: A new client is connected (localhost)
+[11/12/2020 19:00:12] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:00:12] INFO: End of request of socket localhost
+[11/12/2020 19:00:22] INFO: A new client is connected (localhost)
+[11/12/2020 19:00:22] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:00:22] INFO: End of request of socket localhost
+[11/12/2020 19:00:32] INFO: A new client is connected (localhost)
+[11/12/2020 19:00:32] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:00:32] INFO: End of request of socket localhost
+[11/12/2020 19:00:42] INFO: A new client is connected (localhost)
+[11/12/2020 19:00:42] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:00:42] INFO: End of request of socket localhost
+[11/12/2020 19:00:52] INFO: A new client is connected (localhost)
+[11/12/2020 19:00:52] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:00:52] INFO: End of request of socket localhost
+[11/12/2020 19:01:02] INFO: A new client is connected (localhost)
+[11/12/2020 19:01:02] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:01:02] INFO: End of request of socket localhost
+[11/12/2020 19:01:12] INFO: A new client is connected (localhost)
+[11/12/2020 19:01:12] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:01:12] INFO: End of request of socket localhost
+[11/12/2020 19:01:22] INFO: A new client is connected (localhost)
+[11/12/2020 19:01:22] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:01:22] INFO: End of request of socket localhost
+[11/12/2020 19:01:32] INFO: A new client is connected (localhost)
+[11/12/2020 19:01:32] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:01:32] INFO: End of request of socket localhost
+[11/12/2020 19:01:42] INFO: A new client is connected (localhost)
+[11/12/2020 19:01:42] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:01:42] INFO: End of request of socket localhost
+[11/12/2020 19:01:52] INFO: A new client is connected (localhost)
+[11/12/2020 19:01:52] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:01:52] INFO: End of request of socket localhost
+[11/12/2020 19:02:02] INFO: A new client is connected (localhost)
+[11/12/2020 19:02:02] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:02:02] INFO: End of request of socket localhost
+[11/12/2020 19:02:12] INFO: A new client is connected (localhost)
+[11/12/2020 19:02:12] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:02:12] INFO: End of request of socket localhost
+[11/12/2020 19:02:22] INFO: A new client is connected (localhost)
+[11/12/2020 19:02:22] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:02:22] INFO: End of request of socket localhost
+[11/12/2020 19:02:32] INFO: A new client is connected (localhost)
+[11/12/2020 19:02:32] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:02:32] INFO: End of request of socket localhost
+[11/12/2020 19:02:42] INFO: A new client is connected (localhost)
+[11/12/2020 19:02:42] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:02:42] INFO: End of request of socket localhost
+[11/12/2020 19:02:52] INFO: A new client is connected (localhost)
+[11/12/2020 19:02:52] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:02:52] INFO: End of request of socket localhost
+[11/12/2020 19:03:02] INFO: A new client is connected (localhost)
+[11/12/2020 19:03:02] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:03:02] INFO: End of request of socket localhost
+[11/12/2020 19:03:12] INFO: A new client is connected (localhost)
+[11/12/2020 19:03:12] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:03:12] INFO: End of request of socket localhost
+[11/12/2020 19:03:22] INFO: A new client is connected (localhost)
+[11/12/2020 19:03:22] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:03:22] INFO: End of request of socket localhost
+[11/12/2020 19:03:32] INFO: A new client is connected (localhost)
+[11/12/2020 19:03:32] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:03:32] INFO: End of request of socket localhost
+[11/12/2020 19:03:42] INFO: A new client is connected (localhost)
+[11/12/2020 19:03:42] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:03:42] INFO: End of request of socket localhost
+[11/12/2020 19:03:52] INFO: A new client is connected (localhost)
+[11/12/2020 19:03:52] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:03:52] INFO: End of request of socket localhost
+[11/12/2020 19:04:02] INFO: A new client is connected (localhost)
+[11/12/2020 19:04:02] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:04:02] INFO: End of request of socket localhost
+[11/12/2020 19:04:12] INFO: A new client is connected (localhost)
+[11/12/2020 19:04:12] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:04:12] INFO: End of request of socket localhost
+[11/12/2020 19:04:22] INFO: A new client is connected (localhost)
+[11/12/2020 19:04:22] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:04:22] INFO: End of request of socket localhost
+[11/12/2020 19:04:32] INFO: A new client is connected (localhost)
+[11/12/2020 19:04:32] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:04:32] INFO: End of request of socket localhost
+[11/12/2020 19:04:42] INFO: A new client is connected (localhost)
+[11/12/2020 19:04:42] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:04:42] INFO: End of request of socket localhost
+[11/12/2020 19:04:52] INFO: A new client is connected (localhost)
+[11/12/2020 19:04:52] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:04:52] INFO: End of request of socket localhost
+[11/12/2020 19:05:02] INFO: A new client is connected (localhost)
+[11/12/2020 19:05:02] INFO: Recived request GET_NOTIFICATION_INBOX from localhost
+[11/12/2020 19:05:02] INFO: End of request of socket localhost
+

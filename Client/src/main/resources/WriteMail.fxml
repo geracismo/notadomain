@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="mainPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="555.0" prefWidth="740.0" style="-fx-border-width: 0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MailBoxController">
+   <children>
+      <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="555.0" prefWidth="740.0" style="-fx-background-color: #282829;">
+         <children>
+            <VBox prefHeight="161.0" prefWidth="739.0" style="-fx-background-color: #282829;">
+               <children>
+                  <HBox alignment="CENTER_LEFT" fx:id="actionHBox" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="35.0" prefWidth="725.0" style="-fx-background-color: #434345;">
+                     <padding>
+                        <Insets left="13.0" />
+                     </padding>
+                     <children>
+                        <ImageView fx:id="sendBtn" fitHeight="150.0" fitWidth="20.0" onMouseClicked="#onSendMail" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@/icon/purple/inviata-invio.png" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fx:id="allegatoBtn" fitHeight="150.0" fitWidth="20.0" onMouseClicked="#onAttach" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@/icon/purple/attach.png"/>
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <ImageView fx:id="trashBtn" fitHeight="150.0" fitWidth="20.0" onMouseClicked="#onDelete" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@/icon/purple/trash.png" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="36.0" prefWidth="586.0">
+                     <children>
+                        <Label style="-fx-font-family: Ubuntu;" text="A:" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets top="10.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <TextArea fx:id="toTxt" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="400.0" style="-fx-font-family: Ubuntu;">
+                           <HBox.margin>
+                              <Insets left="70.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="12.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="14.0" top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox prefHeight="36.0" prefWidth="586.0">
+                     <children>
+                        <Label style="-fx-font-family: Ubuntu;" text="Cc:" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets top="10.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <TextArea fx:id="ccTxt" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="400.0" style="-fx-font-family: Ubuntu;">
+                           <HBox.margin>
+                              <Insets left="65.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="12.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="14.0" top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox prefHeight="36.0" prefWidth="586.0">
+                     <children>
+                        <Label style="-fx-font-family: Ubuntu;" text="Oggetto:" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets top="10.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <TextArea fx:id="subjectTxt" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="400.0" style="-fx-font-family: Ubuntu;">
+                           <HBox.margin>
+                              <Insets bottom="10.0" left="27.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="12.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="14.0" top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+            <TextArea fx:id="bodyTxt" prefHeight="412.0" prefWidth="739.0" styleClass="text-area" style="-fx-font-family: Ubuntu;">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </VBox.margin></TextArea>
+         </children>
+      </VBox>
+   </children>
+   <stylesheets>
+      <URL value="@/css/mail.css" />
+      <URL value="@/css/fonts.css" />
+   </stylesheets>
+</Pane>

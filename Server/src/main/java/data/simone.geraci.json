@@ -1,0 +1,22 @@
+[
+  {
+    "id": "2086162413",
+    "dest": "simone.geraci@unito.it",
+    "cc": "",
+    "mitt": "ettore.calvi@unito.it",
+    "subject": "asdasd",
+    "body": "ciao coglione",
+    "date": "May 11, 2021, 11:32:42 AM",
+    "alreadyReaded": true
+  },
+  {
+    "id": "301483530",
+    "dest": "lorenzo.bergadano@nad.com",
+    "cc": "",
+    "mitt": "simone.geraci@unito.it",
+    "subject": "ciao",
+    "body": "TI amo carola",
+    "date": "Sep 16, 2023, 6:29:33 PM",
+    "alreadyReaded": false
+  }
+]

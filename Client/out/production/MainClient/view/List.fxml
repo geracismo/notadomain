@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ListController">
+   <left>
+      <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0" style="-fx-border-style: hidden solid hidden hidden; -fx-border-color: #575757; -fx-border-width: 0.5;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="typeOfListLb" style="-fx-font-family: Ubuntu;" text="Rispondi" textFill="#5e5e5e">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="10.0" />
+               </VBox.margin>
+            </Label>
+            <ListView fx:id="listView" onMouseClicked="#handleOnItemClick" prefHeight="500.0" prefWidth="200.0" />
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox fx:id="actionBar" alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="36.0" prefWidth="500.0" style="-fx-border-style: hidden hidden solid hidden; -fx-background-color: #c9c9c9c; -fx-border-color: #575757; -fx-border-width: 0.5;">
+               <children>
+                  <Button fx:id="rispondiAllBtn" mnemonicParsing="false" style="-fx-font-family: 'Ubuntu';" styleClass="action_btn" text="Rispondi a tutti">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="rispondiBtn" mnemonicParsing="false" style="-fx-font-family: 'Ubuntu';" styleClass="action_btn" text="Rispondi">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="inoltraBtn" mnemonicParsing="false" style="-fx-font-family: 'Ubuntu';" styleClass="action_btn" text="Inoltra">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </Button>
+               </children></HBox>
+            <BorderPane prefHeight="196.0" prefWidth="500.0" style="-fx-border-style: hidden hidden solid hidden; -fx-background-color: #c9c9c9c; -fx-border-color: #575757; -fx-border-width: 0.5;">
+               <left>
+                  <VBox alignment="CENTER" maxHeight="-Infinity" prefHeight="48.0" prefWidth="48.0" style="-fx-background-color: linear-gradient(to bottom, #a8a8a8, #444444); -fx-background-radius: 50%;" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="10.0" />
+                     </BorderPane.margin>
+                     <children>
+                        <Label fx:id="accountLb" style="-fx-font-family: Ubuntu-bold;" text="AB" textFill="WHITE" />
+                     </children>
+                  </VBox>
+               </left></BorderPane>
+            <VBox maxHeight="-Infinity" maxWidth="1.7976931348623157E308" prefHeight="500.0" prefWidth="100.0" style="-fx-background-color: white;" />
+         </children>
+      </VBox>
+   </center>
+   <stylesheets>
+      <URL value="@../../res/css/fonts.css" />
+      <URL value="@../../res/css/list.css" />
+   </stylesheets>
+</BorderPane>

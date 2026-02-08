@@ -1,0 +1,14 @@
+### MacOs ###
+.DS_Store
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.class
+*.log
+
+### Maven ###
+Server/target/*
+Client/target/*
