@@ -1,6 +1,6 @@
 # notadomain
 
-
+https://github.com/user-attachments/assets/09b2efdc-05c7-41d7-a3a9-8de19283bf1d
 
 - [Overview](#overview)
 - [Technologies](#technologies)
@@ -58,3 +58,4 @@ cd Client && mvn clean compile && mvn javafx:run
 ```
 
 **Configuration:** Default `localhost:1999` | Client: `client.properties` | Server: GUI settings
+
