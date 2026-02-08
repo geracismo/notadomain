@@ -59,3 +59,5 @@ cd Client && mvn clean compile && mvn javafx:run
 
 **Configuration:** Default `localhost:1999` | Client: `client.properties` | Server: GUI settings
 
+-----
+**no AI used during the project development**
