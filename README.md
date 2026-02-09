@@ -1,4 +1,4 @@
-# notadomain
+# notadomain (2021)
 
 https://github.com/user-attachments/assets/09b2efdc-05c7-41d7-a3a9-8de19283bf1d
 
@@ -61,3 +61,4 @@ cd Client && mvn clean compile && mvn javafx:run
 
 -----
 **no AI used during the project development**
+
